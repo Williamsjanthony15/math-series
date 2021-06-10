@@ -14,7 +14,6 @@ def lucas(n):
     Lucas Testing for Lab2. This will be my interation version of Lucas.
   """
   # pass
-
   seq_list = [2, 1]
   for i in range (2, n + 1):
       next_n = seq_list[-1] + seq_list[-2]
